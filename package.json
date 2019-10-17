@@ -1,0 +1,32 @@
+{
+  "name": "fvedio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp server",
+    "build": "cross-env NODE_ENV=production gulp build"
+  },
+  "author": "wdaonngg",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.6.1",
+    "gulp-file-include": "^2.1.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1",
+    "http-proxy-middleware": "^0.19.0",
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "del": "^3.0.0"
+  }
+}
